@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+.slim-scroll::-webkit-scrollbar {
+    width: 3px; /* Width of the scrollbar */
+    height: 3px;
+}
+
+.slim-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track color */
+}
+
+.slim-scroll::-webkit-scrollbar-thumb {
+    background-color: #0094cf; /* Thumb color */
+    border-radius: 1px; /* Rounded corners */
+}
+
+/* Optional: Hide scrollbar when inactive */
+.slim-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb color on hover */
+}
+
+
