@@ -21,3 +21,15 @@
     border-bottom: 2px solid $primary-color;
   }
 }
+
+@layer utilities {
+  .btn-bg-primary-color {
+    background-color: $btn-primary-color;
+  }
+}
+
+@layer utilities {
+  .btn-border-primary-color {
+    background-color: $btn-primary-color;
+  }
+}
