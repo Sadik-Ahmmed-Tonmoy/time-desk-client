@@ -4,6 +4,7 @@ import Checkbox from "../components/Checkbox/Checkbox";
 import MainTable from "../components/MainTable/MainTable";
 import ToggleButton from "../components/ToggleButton/ToggleButton";
 import EmployeeCardWithActiveButton from "../components/EmployeeCardWithActiveButton/EmployeeCardWithActiveButton";
+import EmployeeCardWithImage from "../components/EmployeeCardWithImage/EmployeeCardWithImage";
 
 const MainLayout = () => {
     const headerColumn = ["Employee Name", "Employee ID", "Department",  "Designation", "Phone No"];
@@ -39,6 +40,7 @@ const MainLayout = () => {
             <MainTable headerColumn={headerColumn} bodyData={bodyData} isActive={true} isDelete={true} isEdit={true} isEye={true}/>
             <ToggleButton/>
             <EmployeeCardWithActiveButton/>
+            <EmployeeCardWithImage/>
         </div>
     );
 };

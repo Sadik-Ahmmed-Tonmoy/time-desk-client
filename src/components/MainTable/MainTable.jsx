@@ -8,11 +8,6 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 import cn from "../../utils/cn";
 
 const MainTable = ({ className, headerColumn, bodyData, isActive, isEdit, isEye, isDelete }) => {
-    const [isChecked, setIsChecked] = useState(false);
-    console.log(`${isChecked}`);
-    const onChange = (checked) => {
-        setIsChecked(checked);
-    };
     return (
         <table className={cn("table w-full border border-collapse border-gray-800 bg-white", className)}>
             <thead className="bg-[#0F8DBA]">
