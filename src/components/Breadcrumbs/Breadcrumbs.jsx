@@ -20,18 +20,18 @@ const Breadcrumbs = ({ first, second, third, className, isShadow}) => {
                     <>
                         {" "}
                         <li className=" text-xs font-normal tracking-[-0.12px] hover:cursor-pointer">
-                            <AiOutlineRight size={8} />
+                            <AiOutlineRight className="text-[#474848]" size={10} />
                         </li>
-                        <li className="opacity-80 text-[#00000099] text-xs font-normal tracking-[-0.12px]">{second}</li>
+                        <li className="opacity-80 text-secondary-color text-xs font-normal tracking-[-0.12px]">{second}</li>
                     </>
                 )}
                 {third && (
                     <>
                         {" "}
                         <li className=" text-xs font-normal tracking-[-0.12px] hover:cursor-pointer">
-                            <AiOutlineRight size={8} />
+                            <AiOutlineRight className="text-[#474848]" size={10} />
                         </li>
-                        <li className="opacity-80 text-[#00000099] text-xs font-normal tracking-[-0.12px]">{third}</li>
+                        <li className="opacity-80 text-secondary-color text-xs font-normal tracking-[-0.12px]">{third}</li>
                     </>
                 )}
             </ul>

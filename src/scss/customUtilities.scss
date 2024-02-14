@@ -16,9 +16,22 @@
     border: 1px solid $primary-color;
   }
 }
+
 @layer utilities {
-  .border-b-primary-color {
-    border-bottom: 2px solid $primary-color;
+  .bg-secondary-color {
+    background-color: $secondary-color;
   }
 }
+
+@layer utilities {
+  .text-secondary-color {
+    color: $secondary-color;
+  }
+}
+@layer utilities {
+  .border-secondary-color {
+    border: 1px solid $secondary-color;
+  }
+}
+
 

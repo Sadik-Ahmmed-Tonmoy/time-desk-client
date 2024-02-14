@@ -35,7 +35,7 @@ const EmployeeCardWithActiveButton = () => {
                 </tr>
             </table>
             <div className="flex items-center justify-between">
-                <Button >View Profile</Button>
+                <Button variant="secondary" >View Profile</Button>
                 <Button variant="bordered" className="px-8 border-[#818181]">Edit</Button>
             </div>
         </div>

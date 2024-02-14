@@ -2,24 +2,24 @@
 
 @layer utilities {
     .btn-bg-primary-color {
-        background-color: $btn-primary-color;
+        background-color: $primary-color;
     }
 }
 
 @layer utilities {
     .btn-border-primary-color {
-        border: 1px solid $btn-primary-color;
+        border: 1px solid $primary-color;
     }
 }
 
 @layer utilities {
     .btn-bg-secondary-color {
-        background-color: $btn-secondary-color;
+        background-color: $secondary-color;
     }
 }
 @layer utilities {
     .btn-border-secondary-color {
-        border: 1px solid $btn-secondary-color;
+        border: 1px solid $secondary-color;
     }
 }
 

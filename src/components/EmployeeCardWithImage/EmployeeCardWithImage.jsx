@@ -37,7 +37,7 @@ const EmployeeCardWithImage = () => {
                 </div>
             </div>
             <div className="flex items-center justify-between">
-                <Button>Approved</Button>
+                <Button variant="secondary">Approved</Button>
                 <Button variant="bordered" className="px-8 border-[#818181]">
                     View
                 </Button>

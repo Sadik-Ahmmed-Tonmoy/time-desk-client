@@ -9,7 +9,7 @@ const Button = forwardRef(({ className, variant, children, ...rest }, ref) => {
         case "primary":
           return "btn-primary";
         case "secondary":
-          return "btn-primary";
+          return "btn-secondary";
         case "bordered":
           return "btn-bordered";
         case "ghost":
