@@ -18,6 +18,12 @@
 }
 
 @layer utilities {
+  .border-bottom-primary-color {
+    border-bottom: 1px solid $primary-color;
+  }
+}
+
+@layer utilities {
   .bg-secondary-color {
     background-color: $secondary-color;
   }
@@ -31,6 +37,11 @@
 @layer utilities {
   .border-secondary-color {
     border: 1px solid $secondary-color;
+  }
+}
+@layer utilities {
+  .border-bottom-secondary-color {
+    border-bottom: 1px solid $secondary-color;
   }
 }
 
