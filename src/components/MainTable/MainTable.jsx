@@ -34,7 +34,7 @@ const MainTable = ({ className, headerColumn, bodyData, isActive, isEdit, isEye,
                     bodyData?.map((rowData, rowIndex) => (
                         <tr key={rowIndex}>
                             {rowData?.map((cellData, cellIndex) => (
-                                <td key={cellIndex} className="text-center text-[#474848] font-Poppins text-xs font-normal leading-normal border">
+                                <td key={cellIndex} className="text-center text-[#474848] py-1 font-Poppins text-xs font-normal leading-normal border">
                                     <div className="flex items-center gap-3 w-min mx-auto">
                                         {cellData.image && <img className="-ms-10 my-[2px] h-8 rounded-full" src={cellData.image} />}
                                         {cellData.text && <p className="text-nowrap">{cellData.text}</p>}

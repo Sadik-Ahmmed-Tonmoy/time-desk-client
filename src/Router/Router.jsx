@@ -4,6 +4,8 @@ import {
 import MainLayout from "../Layout/MainLayout";
 import Home from "../pages/Home/Home";
 import Test from "../pages/Test/Test";
+import Dashboard from "../pages/Dashboard/Dashboard";
+import EmployeeList from "../pages/Employee/EmployeeList/EmployeeList";
 
   export const router = createBrowserRouter([
     {
@@ -14,6 +16,14 @@ import Test from "../pages/Test/Test";
         {
           path: "/",
           element: <Home/>,
+        },
+        {
+          path: "/dashboard",
+          element: <Dashboard/>,
+        },
+        {
+          path: "/employee-list",
+          element: <EmployeeList/>,
         },
         {
           path: "/test",

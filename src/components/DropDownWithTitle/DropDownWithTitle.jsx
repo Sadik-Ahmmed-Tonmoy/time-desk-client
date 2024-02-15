@@ -2,7 +2,7 @@ import { Select } from "antd";
 import React from "react";
 import cn from "../../utils/cn";
 
-const DropDownWithTitle = ({ title, className, dropHeight, placeholder }) => {
+const DropDownWithTitle = ({ title, className, dropHeight="h-10", placeholder }) => {
     return (
         <div className={cn("w-full", className)}>
             {title && <p className="text-[#474848] font-Poppins text-sm font-medium leading-normal mb-2">{title}</p>}
